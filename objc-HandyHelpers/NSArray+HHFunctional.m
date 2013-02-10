@@ -49,7 +49,6 @@
         } else {
             [results addObject:result];
             waitingFor -= 1;
-            NSLog(@"WAITING FOR %d", waitingFor);
             processNextItem();
         }
     };
