@@ -64,7 +64,7 @@
 }
 
 - (NSArray*) _dotSeperated {
-    return [self componentsSeparatedByString:@":"];
+    return [self componentsSeparatedByString:@","];
 }
 
 @end
